@@ -22,11 +22,7 @@ assesmentButton.onclick = () => {
         return;
     }
 
-userNameInput.onkeydown = event => {
-      if (event.key === 'Enter') {
-        assessmentButton.onclick();
-      }
-    };
+
    
 
     
@@ -99,3 +95,9 @@ function assesment(userName) {
     return result;
     
 }
+
+userNameInput.onkeydown = event => {
+      if (event.key === 'Enter') {
+        assessmentButton.onclick();
+      }
+    };
