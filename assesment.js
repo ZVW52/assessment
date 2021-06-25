@@ -22,7 +22,7 @@ assesmentButton.onclick = () => {
         return;
     }
 
-.onkeydown = event => {
+userNameInput.onkeydown = event => {
       if (event.key === 'Enter') {
         assessmentButton.onclick();
       }
